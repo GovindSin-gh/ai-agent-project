@@ -1,0 +1,82 @@
+/* Page background */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* Main container */
+
+.container {
+    width: 600px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #1e293b;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Description */
+
+p {
+    text-align: center;
+    color: #cbd5f5;
+}
+
+/* Text input */
+
+textarea {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    resize: none;
+    font-size: 14px;
+}
+
+/* Button */
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #3b82f6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+/* Response section */
+
+#responseBox {
+    margin-top: 30px;
+    padding: 15px;
+    background: #020617;
+    border-radius: 6px;
+}
+
+/* Response text */
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+}
